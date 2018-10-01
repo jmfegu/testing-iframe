@@ -84,19 +84,10 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
+        <script src="js/iframeSizer.contentWindow.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <script type="text/javascript">
-          function autoHeightIframe() {
-            var iframe = document.getElementsByTagName('iframe');
-            if (iframe) {
-              // here you can make the height, I delete it first, then I make it again
-              iframe.height = "";
-              iframe.height = iframe.contentWindow.document.body.scrollHeight + "px";
-            }
-          }
-        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
